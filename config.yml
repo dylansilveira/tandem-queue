@@ -1,0 +1,14 @@
+logs_file: logs.txt
+events_number: 100000
+start_time: 1.5
+queue_configurations:
+  - id: 1
+    service_interval_range: [3, 4]
+    servers: 2
+    capacity: 3
+    arrival_interval_range: [1, 4]
+  - id: 2
+    service_interval_range: [2, 3]
+    servers: 1
+    capacity: 5
+    arrival_interval_range: [1, 4]
